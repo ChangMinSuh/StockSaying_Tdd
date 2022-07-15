@@ -23,6 +23,10 @@ public class App {
                     break;
                 case "목록":
                     wiseSayingController.list();
+                    break;
+                case "삭제":
+                    wiseSayingController.remove(rq);
+                    break;
                 case "종료":
                     break outer;
             }

@@ -20,4 +20,19 @@ public class WiseSayingRepository {
     public List<WiseSaying> findAll() {
         return wiseSayings;
     }
+
+    public WiseSaying findById(int id) {
+        try{
+            for(WiseSaying wiseSaying: wiseSayings){
+                if(wiseSaying.getId() == id) return wiseSaying;
+            }
+            throw new NullPointerException();
+        } catch(Exception e){
+            return null;
+        }
+    }
+
+    public void remove(WiseSaying wiseSaying) {
+        wiseSayings.remove(wiseSaying);
+    }
 }

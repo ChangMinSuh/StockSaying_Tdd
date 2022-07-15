@@ -16,4 +16,12 @@ public class WiseSayingService {
     public List<WiseSaying> list() {
         return wiseSayingRepository.findAll();
     }
+
+    public WiseSaying findById(int id) {
+        return wiseSayingRepository.findById(id);
+    }
+
+    public void remove(WiseSaying wiseSaying) {
+        wiseSayingRepository.remove(wiseSaying);
+    }
 }

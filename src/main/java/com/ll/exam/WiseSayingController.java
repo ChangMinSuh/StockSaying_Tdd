@@ -33,4 +33,19 @@ public class WiseSayingController {
             );
         }
     }
+
+    public void remove(Rq rq) {
+        int id = rq.getIntParam("id", -1);
+        if (id < 0){
+            System.out.println("id 값을 입력해 주세요.");
+            return;
+        }
+        WiseSaying wiseSaying = wiseSayingService.findById(id);
+        if(wiseSaying == null) {
+            System.out.println(id + "번 명언은 존재하지 않습니다.");
+            return;
+        }
+        wiseSayingService.remove(wiseSaying);
+        System.out.println(id + "번 명언이 삭제되었습니다.");
+    }
 }
