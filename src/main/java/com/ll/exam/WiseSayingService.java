@@ -1,6 +1,7 @@
 package com.ll.exam;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class WiseSayingService {
 
@@ -27,5 +28,12 @@ public class WiseSayingService {
 
     public void update(int id, String newContent, String newAuthor) {
         wiseSayingRepository.update(id, newContent, newAuthor);
+    }
+
+    public void build() {
+        List<WiseSaying> wiseSayings = wiseSayingRepository.findAll();
+        String datum = wiseSayings.stream().map(wiseSaying -> wiseSaying.toJson()).collect(Collectors.joining(","));
+        String dataArr = "[\n" + datum + "]";
+        wiseSayingRepository.saveDataArr(dataArr);
     }
 }

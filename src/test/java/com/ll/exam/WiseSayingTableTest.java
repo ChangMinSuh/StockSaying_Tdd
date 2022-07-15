@@ -70,4 +70,6 @@ public class WiseSayingTableTest {
 
         assertEquals(null, wiseSaying);
     }
+
+
 }

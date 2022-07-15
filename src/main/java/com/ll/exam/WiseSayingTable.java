@@ -36,6 +36,12 @@ public class WiseSayingTable {
         return true;
     }
 
+    public boolean saveDataArr(String dataArr){
+        Util.file.deleteDir("%s/data.json".formatted(baseDir));
+        Util.file.saveToFile("%s/data.json".formatted(baseDir), dataArr);
+        return true;
+    }
+
     private void saveLastId(int id) {
         Util.file.saveToFile("%s/wise_saying/last_id.txt".formatted(baseDir), id + "");
     }

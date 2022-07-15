@@ -69,4 +69,9 @@ public class WiseSayingController {
         wiseSayingService.update(id, newContent, newAuthor);
         System.out.println(id + "번 명언이 수정되었습니다.");
     }
+
+    public void build() {
+        wiseSayingService.build();
+        System.out.println("data.json을 생성하였습니다.");
+    }
 }

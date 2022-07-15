@@ -27,4 +27,8 @@ public class WiseSayingRepository {
     public void update(int id, String newContent, String newAuthor) {
         wiseSayingTable.save(id, newContent, newAuthor);
     }
+
+    public void saveDataArr(String dataArr){
+        wiseSayingTable.saveDataArr(dataArr);
+    }
 }
