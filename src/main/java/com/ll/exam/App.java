@@ -3,11 +3,16 @@ package com.ll.exam;
 import java.util.Scanner;
 
 public class App {
+    public static String mode = "main";
     private Scanner sc;
     private WiseSayingController wiseSayingController;
     public App(Scanner sc) {
         this.sc = sc;
         wiseSayingController = new WiseSayingController(sc);
+    }
+
+    public static String getBaseDir() {
+        return mode + "_data";
     }
 
     public void run(){

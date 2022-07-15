@@ -10,15 +10,15 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class WiseSayingControllerTest {
-//    @BeforeAll
-//    public void beforeAll(){
-//        App.mode = "test";
-//    }
+    @BeforeAll
+    public void beforeAll(){
+        App.mode = "test";
+    }
 
-//    @BeforeEach
-//    public void beforeEach(){
-//        Util.file.deleteDir(App.getBaseDir());
-//    }
+    @BeforeEach
+    public void beforeEach(){
+        Util.file.deleteDir(App.getBaseDir());
+    }
 
     @Test
     public void 등록_하면_명언과_작가를_물어본다(){
@@ -60,7 +60,6 @@ public class WiseSayingControllerTest {
                 목록
                 종료
                 """);
-
         assertTrue(rs.contains("번호 / 작가 / 명언"));
         assertTrue(rs.contains("----------------------"));
         assertTrue(rs.contains("2 / 나폴레옹 / 나에게 불가능이란 없다."));

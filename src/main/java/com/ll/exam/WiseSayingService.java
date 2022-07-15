@@ -21,8 +21,8 @@ public class WiseSayingService {
         return wiseSayingRepository.findById(id);
     }
 
-    public void remove(WiseSaying wiseSaying) {
-        wiseSayingRepository.remove(wiseSaying);
+    public void remove(int id) {
+        wiseSayingRepository.remove(id);
     }
 
     public void update(int id, String newContent, String newAuthor) {

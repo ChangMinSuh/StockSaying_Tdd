@@ -1,48 +1,30 @@
 package com.ll.exam;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class WiseSayingRepository {
-    private int newWiseSayingId;
-    private ArrayList<WiseSaying> wiseSayings;
+    private final WiseSayingTable wiseSayingTable;
     public WiseSayingRepository(){
-        newWiseSayingId = 1;
-        wiseSayings = new ArrayList<>();
+        wiseSayingTable = new WiseSayingTable(App.getBaseDir());
     }
 
     public WiseSaying save(String content, String author) {
-        WiseSaying wiseSaying = new WiseSaying(newWiseSayingId++, content, author);
-        wiseSayings.add(wiseSaying);
-        return wiseSaying;
+        return wiseSayingTable.save(content, author);
     }
 
     public List<WiseSaying> findAll() {
-        return wiseSayings;
+        return wiseSayingTable.findAll();
     }
 
     public WiseSaying findById(int id) {
-        try{
-            for(WiseSaying wiseSaying: wiseSayings){
-                if(wiseSaying.getId() == id) return wiseSaying;
-            }
-            throw new NullPointerException();
-        } catch(Exception e){
-            return null;
-        }
+        return wiseSayingTable.findById(id);
     }
 
-    public void remove(WiseSaying wiseSaying) {
-        wiseSayings.remove(wiseSaying);
+    public void remove(int id) {
+        wiseSayingTable.removeById(id);
     }
 
     public void update(int id, String newContent, String newAuthor) {
-        for(WiseSaying wiseSaying: wiseSayings){
-            if(wiseSaying.getId() == id) {
-                wiseSaying.setAuthor(newAuthor);
-                wiseSaying.setContent(newContent);
-                return;
-            }
-        }
+        wiseSayingTable.save(id, newContent, newAuthor);
     }
 }
