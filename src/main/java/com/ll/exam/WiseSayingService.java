@@ -24,4 +24,8 @@ public class WiseSayingService {
     public void remove(WiseSaying wiseSaying) {
         wiseSayingRepository.remove(wiseSaying);
     }
+
+    public void update(int id, String newContent, String newAuthor) {
+        wiseSayingRepository.update(id, newContent, newAuthor);
+    }
 }

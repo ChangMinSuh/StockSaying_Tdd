@@ -7,6 +7,7 @@
     <list default="true" id="ca390e0a-7b26-481e-96b5-dc6f094547e5" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ll/exam/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ll/exam/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ll/exam/WiseSaying.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ll/exam/WiseSaying.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ll/exam/WiseSayingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ll/exam/WiseSayingController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ll/exam/WiseSayingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ll/exam/WiseSayingRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ll/exam/WiseSayingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ll/exam/WiseSayingService.java" afterDir="false" />
@@ -58,7 +59,7 @@
       <recent name="com.ll.exam" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WiseSayingControllerTest.명언을_삭제할_수_있다">
+  <component name="RunManager" selected="JUnit.WiseSayingControllerTest.명언을_수정할_수_있다">
     <configuration name="AppTest.출력을_모니터에_하지_않고_문자열로_얻기" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
@@ -107,7 +108,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WiseSayingControllerTest.등록_하면_명언과_작가를_물어본다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WiseSayingControllerTest.명언을_수정할_수_있다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -117,7 +118,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.ll.exam" />
       <option name="MAIN_CLASS_NAME" value="com.ll.exam.WiseSayingControllerTest" />
-      <option name="METHOD_NAME" value="등록_하면_명언과_작가를_물어본다" />
+      <option name="METHOD_NAME" value="명언을_수정할_수_있다" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WiseSayingControllerTest.명언을_수정할_수_있다" />
         <item itemvalue="JUnit.WiseSayingControllerTest.명언을_삭제할_수_있다" />
         <item itemvalue="JUnit.WiseSayingControllerTest" />
         <item itemvalue="JUnit.WiseSayingControllerTest.등록_후_목록에서_확인할_수_있어야_한다" />
         <item itemvalue="JUnit.WiseSayingControllerTest.등록을_하면_생성된_명언의_번호가_출력되어야_한다" />
-        <item itemvalue="JUnit.WiseSayingControllerTest.등록_하면_명언과_작가를_물어본다" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +177,7 @@
       <workItem from="1657685240508" duration="691000" />
       <workItem from="1657713993160" duration="758000" />
       <workItem from="1657771958574" duration="7098000" />
-      <workItem from="1657844905784" duration="12149000" />
+      <workItem from="1657844905784" duration="13152000" />
     </task>
     <servers />
   </component>

@@ -35,4 +35,14 @@ public class WiseSayingRepository {
     public void remove(WiseSaying wiseSaying) {
         wiseSayings.remove(wiseSaying);
     }
+
+    public void update(int id, String newContent, String newAuthor) {
+        for(WiseSaying wiseSaying: wiseSayings){
+            if(wiseSaying.getId() == id) {
+                wiseSaying.setAuthor(newAuthor);
+                wiseSaying.setContent(newContent);
+                return;
+            }
+        }
+    }
 }
