@@ -21,6 +21,8 @@ public class App {
                 case "등록":
                     wiseSayingController.write();
                     break;
+                case "목록":
+                    wiseSayingController.list();
                 case "종료":
                     break outer;
             }

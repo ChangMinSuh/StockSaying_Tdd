@@ -1,5 +1,7 @@
 package com.ll.exam;
 
+import java.util.List;
+
 public class WiseSayingService {
 
     private final WiseSayingRepository wiseSayingRepository;
@@ -9,5 +11,9 @@ public class WiseSayingService {
     }
     public WiseSaying write(String content, String author) {
         return wiseSayingRepository.save(content, author);
+    }
+
+    public List<WiseSaying> list() {
+        return wiseSayingRepository.findAll();
     }
 }
