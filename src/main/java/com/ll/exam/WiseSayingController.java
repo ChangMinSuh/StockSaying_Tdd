@@ -61,9 +61,11 @@ public class WiseSayingController {
             return;
         }
         System.out.println("명언(기존) : " + wiseSaying.getContent());
+        System.out.print("명언 : ");
         String newContent = sc.nextLine();
 
         System.out.println("작가(기존) : " + wiseSaying.getAuthor());
+        System.out.print("작가 : ");
         String newAuthor = sc.nextLine();
 
         wiseSayingService.update(id, newContent, newAuthor);

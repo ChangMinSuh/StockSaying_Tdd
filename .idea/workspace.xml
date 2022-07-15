@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca390e0a-7b26-481e-96b5-dc6f094547e5" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_data/wise_saying/2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_data/wise_saying/4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_data/wise_saying/7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_data/wise_saying/last_id.txt" beforeDir="false" afterPath="$PROJECT_DIR$/main_data/wise_saying/last_id.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ll/exam/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ll/exam/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ll/exam/WiseSayingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ll/exam/WiseSayingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ll/exam/WiseSayingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ll/exam/WiseSayingRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ll/exam/WiseSayingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ll/exam/WiseSayingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ll/exam/WiseSayingTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ll/exam/WiseSayingTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ll/exam/WiseSayingControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ll/exam/WiseSayingControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ll/exam/WiseSayingTableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ll/exam/WiseSayingTableTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +152,7 @@
       <workItem from="1657713993160" duration="758000" />
       <workItem from="1657771958574" duration="7098000" />
       <workItem from="1657844905784" duration="18941000" />
-      <workItem from="1657895824567" duration="13926000" />
+      <workItem from="1657895824567" duration="14357000" />
     </task>
     <servers />
   </component>
